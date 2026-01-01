@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>Death Mire Warzone News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css" media="screen">
+
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border: none;
+        }
+
+        a:hover {
+          cursor: pointer;
+        }
+
+        a {
+          font-size: smaller;
+        }
+    </style>
+    <style>
+        /* Style the buttons */
+        .btn {
+          color: white;
+          float: left;
+          border: none;
+          outline: none;
+          padding: 4px 6px;
+          text-decoration: none;
+          background-color: black;
+          cursor: pointer;
+          font-size: xx-small;
+          transition: background-color .3s;
+        }
+
+        /* Style the active class, and buttons on mouse-over */
+        .active, .btn:hover {
+          background-color: #666;
+          color: white;
+        }
+    </style>
+    <script type="text/javascript">
+      function hijacklinks(iframe){
+        var as = iframe.contentDocument.getElementsByTagName('a');
+        for(i=0;i<as.length;i++){
+          if (as[i].getAttribute('target') == 'content'){
+            as[i].setAttribute('target','content'); /*load within frame on page*/
+          }
+          else{
+            as[i].setAttribute('target','_parent'); /*load outside of frame*/
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="myDIV" class="pagination">
+      <a class="btn active" onclick="document.getElementById('pageFrame').setAttribute('src', 'sub-deathmire.20001017164508.htm');">2000-10-17</a>
+      <a class="btn" onclick="document.getElementById('pageFrame').setAttribute('src', 'sub-deathmire.20010514062215.htm');">2001-05-14</a>
+    </div>
+    <iframe 
+      id="pageFrame" 
+      src="sub-deathmire.20001017164508.htm" 
+      width="100%" 
+      height="100%" 
+      sandbox="allow-scripts allow-same-origin allow-top-navigation" 
+      onload="hijacklinks(this)">
+    </iframe>
+    
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("myDIV");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+      }
+    </script>
+  </body>
+</html>
