@@ -1,9 +1,7 @@
 # www.armageddon3.com
 
-##Notes
-file.ext = main file
-file.timestamp.ext = different versions of the file, including one for the main file.
+This is a fan project to recreate old GW websites for historical and reference purposes.
 
-##Tools
-Websitino - https://trikko.github.io/websitino/, https://github.com/trikko/websitino
-JPEXS Free Flash Decompiler - https://github.com/jindrapetrik/jpexs-decompiler
+While the websites are viewable via the Internet Archive's Wayback Machine, this project aims to make them more accessible.
+
+Games Workshop, Citadel, Warhammer, Warhammer40,000, BloodBowl, WarhammerQuest, Talisman, EPIC40,000, SpaceHulk, Warhammer Fantasy Roleplay, White Dwarf, Citadel Journal, Golden Demon, and Necromunda are registered trademarks of Games Workshop Ltd. All rights reserved. I do not make any claims of rights to any material that is the property of any other individual and/or company.
