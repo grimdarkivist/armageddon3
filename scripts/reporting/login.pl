@@ -9,8 +9,8 @@
 
 <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
 <TR>
-<TD valign=top><img src="/armageddon3/images/nh456c-left-2_01.jpg" width=50 height=138 border=0></TD>
-<TD><img src="/armageddon3/images/invisible.gif" width=10 height=1 border=0></TD>
+<TD valign=top><img src="/armageddon3/Images/nh456c-left-2_01.jpg" width=50 height=138 border=0></TD>
+<TD><img src="/armageddon3/Images/invisible.gif" width=10 height=1 border=0></TD>
 <TD><img src="/armageddon3/English/Campaign/images/campaignlogo.gif" width=670 height=117 border=0><BR CLEAR><TABLE WIDTH="650" ALIGN=CENTER CELLSPACING=0 CELLPADDING=0 BORDER="0" VALIGN=TOP><TR><TD WIDTH="650"><CENTER><P><FONT SIZE="-1"> </FONT><FONT SIZE="+2" COLOR="#FFOOOO"><B>Password Error! Access Denied!!</B></FONT><FONT SIZE="-1"> </FONT></P></CENTER>
 
 <p>It seems that your password or username have been entered incorrectly. Please try again. If the problem persists contact us at <A HREF="mailto:techpriest@games-workshop.com">techpriest@Games-Workshop.com</A> and we'll endeavor to get it fixed as quick as possible. If you haven't registered for the <B>Third War for Armageddon Campaign</B>, proceed to the <A HREF="http://www.armageddon3.com/English/Campaign/registration/registration1.html">Registration Area</A> in order to choose a Warzone and start defending or destroying Armageddon!</p>
